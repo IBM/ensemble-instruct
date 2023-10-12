@@ -1,0 +1,18 @@
+################################
+###### Core dependencies #######
+################################
+torch>=1.0.0
+rouge-score
+tqdm>=4.31.1
+transformers>=3.0.0
+matplotlib
+pandas>=1.0.1
+numpy
+packaging>=20.9
+openai==0.24.0
+benepar
+spacy
+plotly
+python-dotenv
+ibm-generative-ai
+bert-score==0.3.13
