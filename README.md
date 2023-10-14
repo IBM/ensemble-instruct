@@ -23,11 +23,9 @@ following platform, which requires an access key:
 https://bam.res.ibm.com/
 
 And the access key can be set using the following command in your login shell:
-
 export BAM_API_KEY=xyz
 
 All of the models used in our experiments can also be accessed from:
-
 1. watsonx.ai: https://www.ibm.com/products/watsonx-ai or
 2. huggingface models: https://huggingface.co/models
 
@@ -37,33 +35,26 @@ And you need to set the BAM_API_KEY to the access key of the platform of your ch
 
 mkdir sample
 
-Synthetic intruction tuning data set acquisition comprises 5 steps:
+**Synthetic intruction tuning data set acquisition comprises 5 steps**:
 
-Step 1: Instruction generation
-
+**Step 1: Instruction generation**
 Instructions are divided into 2 categories:
 
 1. Instruction that requires input-output instances, which can be obtained with:
-
-scripts/gen_io_instruction.sh
-
+   scripts/gen_io_instruction.sh
 2. Instruction that require output only instances, which can be obtained with:
+   scripts/gen_o_instruction.sh
 
-scripts/gen_o_instruction.sh
-
-Step 2: Instance generation
+**Step 2: Instance generation**
 
 Instances are also divided into 2 categories:
 
 1. Input-output instances, which can be obtained with:
-
-scripts/gen_io_instance.sh
-
+   scripts/gen_io_instance.sh
 2. Output only instances, which can be obtained with:
+   scripts/gen_o_instance.sh
 
-scripts/gen_o_instance.sh
-
-Step 3: Filtering out invalid instances
+**Step 3: Filtering out invalid instances**
 
 Not all of the generated instances are in valid format. So we select only valid instances
 with the script ensemble_instruct/sample_instances.py input output
@@ -71,19 +62,16 @@ with the script ensemble_instruct/sample_instances.py input output
 Input-output instances and output only instances can be merged at this stage to
 proceed with output generation in the next step.
 
-Step 4: Additional output generation
+**Step 4: Additional output generation**
 
 For output ensemble, we generate addition outputs given the instruction and (optional) input obtained in Steps 1 & 2, using flan-t5-xxl and flan-ul2 as follows:
 
 1. Output generation with flan-t5-xxl
-
-scripts/gen_output_flan-t5-xxl.sh
-
+   scripts/gen_output_flan-t5-xxl.sh
 2. Output generation with flan-ul2
+   scripts/gen_output_flan-ul2.sh
 
-scripts/gen_output_flan-ul2.sh
-
-Step 5: Ensemble Instruct
+**Step 5: Ensemble Instruct**
 
 We apply ensembling of 3 sets ouf outputs generated in Step 2 and Step 4 to select high
 quality output as the final output, which can be obtained with
@@ -99,7 +87,7 @@ scripts/ensemble_instruct.sh
 All of the intermediate outputs can be found in the directory:
 sample/
 
-The final ensembled output is: openei.ensemble
+The final ensembled output is: **sample/openei.ensemble**
 
 ### Citations
 
