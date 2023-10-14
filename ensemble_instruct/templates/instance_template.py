@@ -1,4 +1,4 @@
-output_template = '''Generate examples for the instructions. The instruction does not require input and generate the output directly.
+output_template = '''Generate examples for the instructions. The instruction does not require input and generate the output only.
 
 instruction: Which exercises are best for reducing belly fat at home?
 output: Lying Leg Raises, Leg In And Out, Plank, Side Plank, Sit-ups 
