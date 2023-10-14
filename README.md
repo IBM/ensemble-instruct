@@ -101,5 +101,6 @@ The final ensembled output is: **sample/openei.ensemble**
 
 ### Acknowledgement
 
-gen_instruction.py and gen_instances.py are adapted from [bootstrap_instruction](https://github.com/yizhongw/self-instruct/blob/main/self_instruct/bootstrap_instructions.py)
+**gen_instruction.py** and **gen_instances.py** are adapted from [bootstrap_instruction](https://github.com/yizhongw/self-instruct/blob/main/self_instruct/bootstrap_instructions.py)
 and [generate_instances](https://github.com/yizhongw/self-instruct/blob/main/self_instruct/generate_instances.py) respectively.
+seed_tasks.jsonl is an exact copy of [seed_tasks](https://github.com/yizhongw/self-instruct/blob/main/data/seed_tasks.jsonl)
