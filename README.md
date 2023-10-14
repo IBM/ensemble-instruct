@@ -110,9 +110,9 @@ The final ensembled output is: openei.ensemble
 
 ### Citations
 
-@inproceedings{ysuklee2023ei,
-  title={Ensemble-Instruct: Generating Instruction-Tuning Data with a Heterogeneous Mixture of LMs},
-  author={Lee, Young-Suk and Sultan, Arafat and El-Kurdi, Yousef and Naseem, Tahira and Munawar, Asim and Florian, Radu and Roukos, Salim and Astudillo, Ramon},
-  journal={Proceedings of EMNLP 2023},
+@inproceedings{ysuklee2023ei, \
+  title={Ensemble-Instruct: Generating Instruction-Tuning Data with a Heterogeneous Mixture of LMs},\
+  author={Lee, Young-Suk and Sultan, Arafat and El-Kurdi, Yousef and Naseem, Tahira and Munawar, Asim and Florian, Radu and Roukos, Salim and Astudillo, Ramon}, \
+  journal={Proceedings of EMNLP 2023}, \
   year={2023}
 }
