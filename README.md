@@ -28,8 +28,7 @@ And the access key can be set using the following command in your login shell:
 export BAM_API_KEY=xyz
 
 All of the models used in our experiments can also be accessed from:
-1. watsonx.ai: https://www.ibm.com/products/watsonx-ai or
-2. huggingface models: https://huggingface.co/models
+huggingface models: https://huggingface.co/models
 
 And you need to set the BAM_API_KEY to the access key of the platform of your choice
 
@@ -99,3 +98,8 @@ The final ensembled output is: **sample/openei.ensemble**
   journal={Proceedings of EMNLP 2023}, \
   year={2023}
 }
+
+### Acknowledgement
+
+gen_instruction.py and gen_instances.py are adapted from [bootstrap_instruction](https://github.com/yizhongw/self-instruct/blob/main/self_instruct/bootstrap_instructions.py)
+and [generate_instances](https://github.com/yizhongw/self-instruct/blob/main/self_instruct/generate_instances.py) respectively.
