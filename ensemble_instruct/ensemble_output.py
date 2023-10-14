@@ -150,7 +150,8 @@ if __name__ == '__main__':
                 
             worst_rouge_score = select_worst_rougescore(io_o1_R, io_o2_R, o1_o2_R)
             best_rouge_score, best_output = select_best_rouge(io_o1_R, io_o2_R, o1_o2_R, instance_output, output1, output2)
-        
+            
+            # Select only the best output with the minimum rougeL agreement score
             if em_flag==0 and worst_rouge_score > 0.01 and best_output!="":
                 ensemble.write(json.dumps({
                     "instruction": instruction,
