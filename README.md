@@ -89,7 +89,7 @@ sample/
 
 The final ensembled output is: **sample/openei.ensemble**
 
-### Citations
+### Citation
 
 @inproceedings{ysuklee2023ei, \
   title={Ensemble-Instruct: Generating Instruction-Tuning Data with a Heterogeneous Mixture of LMs},\
