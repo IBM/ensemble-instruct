@@ -34,11 +34,15 @@ And you need to set the BAM_API_KEY to the access key of the platform of your ch
 
 ### Ensemble Instruct
 
-Step 0: copy seed_tasks.jsonl from the following link and place the file "seed_tasks.jsonl" in data/ directory
+Step 0: In the repo directory
+
+1. mkdir data/
+
+2. copy seed_tasks.jsonl from the following link and place the file "seed_tasks.jsonl" in data/ directory
 
 https://github.com/yizhongw/self-instruct/blob/main/data/seed_tasks.jsonl
 
-mkdir sample
+3. mkdir sample
 
 **Synthetic intruction tuning data set acquisition comprises 5 steps**:
 
