@@ -2,7 +2,7 @@
 
 This repo includes the codebase release for the following EMNLP2023 paper:
 
-**Ensemble-Instruct: Generating Instruction-Tuning Data with a Heterogeneous Mixture of LMs**
+**[Ensemble-Instruct: Generating Instruction-Tuning Data with a Heterogeneous Mixture of LMs](https://arxiv.org/abs/2310.13961)**
 
 ### Installation
 
