@@ -96,13 +96,15 @@ The final ensembled output is: **sample/openei.ensemble**
 
 ### Citation
 
+```
 @inproceedings{ensemble-instruct2023, \
   title={Ensemble-Instruct: Instruction Tuning Data Generation with a Heterogeneous Mixture of LMs},\
   author={Lee, Young-Suk and Sultan, Arafat and El-Kurdi, Yousef and Naseem, Tahira and Munawar, Asim and Florian, Radu and Roukos, Salim and Astudillo, Ramon}, \
   journal={Findings of the Association for Computational Linguistics: EMNLP 2023}, \
-  pages={12561-12571},
+  pages={12561-12571},\
   year={2023}
 }
+```
 
 ### Acknowledgement
 
