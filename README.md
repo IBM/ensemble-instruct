@@ -1,10 +1,10 @@
 # ensemble-instruct
 
-This repo includes the codebase and dataset release for the following EMNLP2023 paper:
+This repo includes the codebase and dataset releases for the following EMNLP2023 paper:
 
 **[Ensemble-Instruct: Instruction Tuning Data Generation with a Heterogeneous Mixture of LMs](https://aclanthology.org/2023.findings-emnlp.836)**
 
-The synthetic dataset ***data/ensemble-instruct.jsonl*** is under apache-2.0 license.
+The synthetic dataset is ***data/ensemble-instruct.jsonl***.
 
 ### Installation
 
