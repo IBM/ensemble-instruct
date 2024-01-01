@@ -4,7 +4,6 @@ This repo includes the codebase and dataset releases for the following EMNLP2023
 
 **[Ensemble-Instruct: Instruction Tuning Data Generation with a Heterogeneous Mixture of LMs](https://aclanthology.org/2023.findings-emnlp.836)**
 
-The synthetic dataset is ***data/ensemble-instruct.jsonl***.
 
 ### Installation
 
