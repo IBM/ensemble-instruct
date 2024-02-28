@@ -144,7 +144,7 @@ if __name__ == '__main__':
                 ensemble.write(json.dumps({
                     "instruction": instruction,
                     "input": input,
-                    "output": instance_output
+                    "output": output1
                 }) + "\n")
                 em_flag = 1
                 
